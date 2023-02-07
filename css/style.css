@@ -918,6 +918,7 @@ h6 {
 .bg-block__form input[type=submit] {
   -webkit-appearance: none;
   -moz-appearance: none;
+  display: block;
   position: absolute;
   right: 0;
   padding: 0.9375rem 1.4375rem;
