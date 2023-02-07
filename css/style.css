@@ -916,6 +916,8 @@ h6 {
 }
 
 .bg-block__form input[type=submit] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   position: absolute;
   right: 0;
   padding: 0.9375rem 1.4375rem;
@@ -926,7 +928,9 @@ h6 {
   letter-spacing: 0.0125rem;
   color: #ffffff;
   background: #FFA62B;
-  /*border-radius: 0rem 0.3125rem 0.3125rem 0rem;*/
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0rem 0.3125rem 0.3125rem 0rem;
 }
 
 .get-block {
