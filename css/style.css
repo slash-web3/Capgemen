@@ -915,7 +915,7 @@ h6 {
   border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
 }
 
-.bg-block__form input[type=submit] {
+.bg-block__form button[type=submit] {
   position: absolute;
   right: 0;
   display: -webkit-box;
