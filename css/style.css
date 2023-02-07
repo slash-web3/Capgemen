@@ -915,10 +915,7 @@ h6 {
   border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
 }
 
-.bg-block__form input[type=submit] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  display: block;
+.bg-block__form input[type=button] {
   position: absolute;
   right: 0;
   padding: 0.9375rem 1.4375rem;
@@ -929,8 +926,6 @@ h6 {
   letter-spacing: 0.0125rem;
   color: #ffffff;
   background: #FFA62B;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0rem 0.3125rem 0.3125rem 0rem;
 }
 
@@ -1696,7 +1691,7 @@ h6 {
     font-size: 1.125rem;
   }
 
-  .bg-block__form input[type=submit] {
+  .bg-block__form input[type=button] {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
