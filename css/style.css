@@ -918,6 +918,13 @@ h6 {
 .bg-block__form input[type=submit] {
   position: absolute;
   right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   padding: 0.9375rem 1.4375rem;
   text-align: center;
   font-weight: 400;
