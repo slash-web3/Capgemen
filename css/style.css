@@ -926,7 +926,7 @@ h6 {
   letter-spacing: 0.0125rem;
   color: #ffffff;
   background: #FFA62B;
-  border-radius: 0rem 0.3125rem 0.3125rem 0rem;
+  /*border-radius: 0rem 0.3125rem 0.3125rem 0rem;*/
 }
 
 .get-block {
