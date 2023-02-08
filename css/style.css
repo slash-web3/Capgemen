@@ -916,24 +916,25 @@ h6 {
 }
 
 .bg-block__form button {
-  position: absolute;
-  right: 0;
+  background: #ff7b47;
+  border: 0.0625rem solid #e6e6e6;
+  border-radius: 0rem 0.3125rem 0.3125rem 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 3.625rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  padding: 0.9375rem 1.4375rem;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.0125rem;
-  color: #ffffff;
-  background: #FFA62B;
-  border-radius: 0rem 0.3125rem 0.3125rem 0rem;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  padding: 0rem 1.375rem;
 }
 
 .get-block {
