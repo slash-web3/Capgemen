@@ -890,33 +890,57 @@ h6 {
   background: #252B42;
 }
 
-.bg-block__title {
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  letter-spacing: 0.00625rem;
-  color: #FFFFFF;
-}
-
-.bg-block__form {
+.subscribe__body {
   position: relative;
+  z-index: 2;
+  padding: 1.875rem 3.125rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #17213c;
+  border-radius: 0.125rem;
 }
 
-.bg-block__form input[type=email] {
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem;
-  padding-left: 1.25rem;
-  padding-right: 14.6875rem;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.0125rem;
-  color: #737373;
-  outline: none;
-  border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+.subscribe__title {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 133%;
+  font-weight: 700;
+  letter-spacing: 0.00625rem;
 }
 
-.btnssc {
+.subscribe__form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe__input {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  min-height: 3.625rem;
+  background-color: #f9f9f9;
+  color: #000;
+  padding: 0rem 1.25rem;
+  border: 0.0625rem solid #e6e6e6;
+  border-right: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.3125rem 0rem 0rem 0.3125rem;
+}
+
+.subscribe__button {
   background: #ff7b47;
   border: 0.0625rem solid #e6e6e6;
   border-radius: 0rem 0.3125rem 0.3125rem 0rem;
@@ -936,6 +960,10 @@ h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   padding: 0rem 1.375rem;
+}
+
+.subscribe__button:hover {
+  background: #ca6137;
 }
 
 .get-block {
